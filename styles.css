@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo gris claro */
+}
+
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+#vota {
+    text-align: center; /* Centrar el botón de votar */
+}
+
+#vota button {
+    background-color: #ff3333; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+#vota button:hover {
+    background-color: #ff6666; /* Rojo más claro al pasar el mouse */
+}
+
+#direccionIP {
+    text-align: center; /* Centrar la dirección IP */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.candidato {
+    display: block;
+    margin: 10px auto; /* Margen vertical y centrado horizontal */
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    width: 80%; /* Ancho del botón */
+}
+
+.candidato:hover {
+    background-color: #45a049; /* Verde más claro al pasar el mouse */
+}
